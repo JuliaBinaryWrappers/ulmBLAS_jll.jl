@@ -1,0 +1,14 @@
+version = "0.2.0+0"
+name = "ulmBLAS_jll"
+uuid = "6931dcbc-e4a6-5649-8a08-f9a6a2759721"
+
+[deps]
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+
+[compat]
+Libdl = "< 0.0.1, 1"
+julia = "1.9"
+JLLWrappers = "1.7.0"
+Artifacts = "< 0.0.1, 1"
