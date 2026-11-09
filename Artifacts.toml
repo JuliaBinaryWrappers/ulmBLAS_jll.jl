@@ -1,17 +1,25 @@
 [[ulmBLAS]]
 arch = "x86_64"
-git-tree-sha1 = "c3428f88c88e284ae0689043c084ccc8c658e324"
+git-tree-sha1 = "de159a145f6a3e22988cfa0e28e3c083003d184c"
 libc = "glibc"
 os = "linux"
 
     [[ulmBLAS.download]]
-    sha256 = "70aaa3f42c87d251bb4cb8506556b764f3876c072f57cbf0c1838a8c3fe5330a"
-    url = "https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.2.0+0/ulmBLAS.v0.2.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "9a143e0f8b559986a1d2b90e8823e430f6a57809f9807e99c2f91a8e3ac5fab7"
+    url = "https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.3.0+0/ulmBLAS.v0.3.0.x86_64-linux-gnu.tar.gz"
 [[ulmBLAS]]
 arch = "aarch64"
-git-tree-sha1 = "5a6af6857769bd7cb385efd80cab284af343a5e6"
+git-tree-sha1 = "78d93cc06c9226f85fefb96bc0cff762629994a5"
 os = "macos"
 
     [[ulmBLAS.download]]
-    sha256 = "235899c74363a8fe61db592ea5f06c1424b20ff3cc7f1b6e09cea3d0bdddafeb"
-    url = "https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.2.0+0/ulmBLAS.v0.2.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "66aeb8d0df3b29adcb6ffca8d296c113bf0a0a86693bdee3c0b52a38c531015e"
+    url = "https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.3.0+0/ulmBLAS.v0.3.0.aarch64-apple-darwin.tar.gz"
+[[ulmBLAS]]
+arch = "x86_64"
+git-tree-sha1 = "c12f1045ba2c7852e19e4a17fadfbffc697fa233"
+os = "windows"
+
+    [[ulmBLAS.download]]
+    sha256 = "c0523313b56369340bb3f1e1c0358a0746dc5837b4086138f081d1b7eddf50e8"
+    url = "https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.3.0+0/ulmBLAS.v0.3.0.x86_64-w64-mingw32.tar.gz"
